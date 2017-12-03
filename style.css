@@ -1,4 +1,6 @@
 body {
+  color: #0C0C0C;
+  background-color: #FFFFFB;
   font-family: Gudea;
   font-weight: 400;
   font-size: 16px;
@@ -13,7 +15,7 @@ header {
 
 header a {
   border-bottom: 1px dotted #999;
-  color: #444;
+  color: #1C1C1C;
   text-decoration: none;
 }
 
@@ -84,8 +86,13 @@ img.foto {
 }
 
 a {
-  color: #DB0135; /*#fb011d*/
+  color: #005CAF;/*#E83015; /*#DB0135 #fb011d*/
   text-decoration: none;
+}
+
+a:hover {
+  color: #005CAF;/*#E83015; /*#DB0135 #fb011d*/
+  text-decoration: underline;
 }
 
 p {
@@ -126,6 +133,19 @@ a.blog {
   float: right;
 }
 
+form {
+  width: 100%;
+}
+
+input {
+  width: 100%;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+}
+
 @media screen and (max-width: 550px) {
   body {
     margin: 10px auto;
@@ -134,7 +154,7 @@ a.blog {
     word-wrap: break-word;
   }
   pre {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 16px;
   }
 }
